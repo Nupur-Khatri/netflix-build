@@ -1,0 +1,42 @@
+.nav {
+    position: fixed;
+    top: 0;
+    padding:  3.0441400304414vh;
+    width: 100vw;
+    height: 4.566210045662101vh;
+    z-index: 1;
+    /* Animation */
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
+
+.nav__contents {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__black {
+    background-color: black;
+
+}
+
+.nav__logo {
+    position: fixed;
+    top: 1.5220700152207vh;
+    left: 0;
+    width: 5.856515373352855vw;
+    object-fit: contain;
+    padding-left: 1.4641288433382138vw;
+    cursor: pointer;
+}
+
+.nav__avatar {
+    cursor: pointer;
+    position: fixed;
+    right: 1.4641288433382138vw;
+    width: 2.1961932650073206vw;
+    height: 4.566210045662101vh;
+}
+
+
+

@@ -1,0 +1,94 @@
+.loginScreen {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    height: 100vh;
+    background: url("https://assets.nflxext.com/ffe/siteui/vlv3/757ab38f-5d08-40bc-b3eb-eaba63ed8203/93c34f94-56c8-40a7-8b2e-b4aac6427977/GB-en-20210125-popsignuptwoweeks-perspective_alpha_website_medium.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.loginScreen__logo {
+    position: fixed;
+    left: 0;
+    width: 11vw;
+    object-fit: contain;
+    padding-left: 1.5vw;
+}
+
+.loginScreen__button {
+    position: fixed;
+    right: 1.5vw;
+    top: 3vh;
+    padding: 1vh 1vw;
+    background-color: #e50914;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.loginScreen__gradient {
+    width: 100%;
+    z-index: 1;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.8) 0,
+        rgba(0, 0, 0, 0) 60%,
+        rgba(0, 0, 0, 0.8) 100%
+    );
+}
+
+.loginScreen__body > h1 {
+    font-size: 3vw;
+    margin-bottom: 3vh;
+}
+
+.loginScreen__body {
+    position: absolute;
+    top: 30vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    z-index: 1;
+    color: #fff;
+    padding: 1%;
+    left: 0;
+    right: 0;
+}
+
+.loginScreen__body > h2 {
+    font-size: 2vw;
+    font-weight: 400;
+    margin-bottom: 3vh;
+}
+
+.loginScreen__body > h3 {
+    font-size: 1.5vw;
+    font-weight: 400;
+}
+
+.loginScreen__getStarted {
+    padding:  2.35vh  1.5vw;
+    font-size: 1.1vw;
+    color: #fff;
+    background-color: #e50914;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.loginScreen__input > form > input {
+    padding: 1.5vh;
+    outline-width: 0;
+    height: 4.566210045662101vh;
+    width: 30%;
+    border: none;
+    max-width: 43.92386530014641vw;
+}
+
+.loginScreen__input {
+    margin: 2vh;
+}
