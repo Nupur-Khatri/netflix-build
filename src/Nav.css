@@ -1,7 +1,7 @@
 .nav {
     position: fixed;
     top: 0;
-    padding:  3.0441400304414vh;
+    padding: 3.0441400304414vh;
     width: 100vw;
     height: 4.566210045662101vh;
     z-index: 1;
@@ -17,7 +17,6 @@
 
 .nav__black {
     background-color: black;
-
 }
 
 .nav__logo {
@@ -37,6 +36,3 @@
     width: 2.1961932650073206vw;
     height: 4.566210045662101vh;
 }
-
-
-
