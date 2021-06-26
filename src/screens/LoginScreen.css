@@ -1,3 +1,5 @@
+html { font-size:100%; }
+
 .loginScreen {
     margin-left: auto;
     margin-right: auto;
@@ -10,7 +12,7 @@
 .loginScreen__logo {
     position: fixed;
     left: 0;
-    width: 11vw;
+    width: 9rem;
     object-fit: contain;
     padding-left: 1.5vw;
 }
@@ -18,7 +20,7 @@
 .loginScreen__button {
     position: fixed;
     right: 1.5vw;
-    top: 3vh;
+    top: 1.3rem;
     padding: 1vh 1vw;
     background-color: #e50914;
     color: white;
@@ -42,7 +44,7 @@
 }
 
 .loginScreen__body > h1 {
-    font-size: 3vw;
+    font-size: 4vw;
     margin-bottom: 3vh;
 }
 
@@ -66,13 +68,13 @@
 }
 
 .loginScreen__body > h3 {
-    font-size: 1.5vw;
+    font-size: 1rem;
     font-weight: 400;
 }
 
 .loginScreen__getStarted {
-    padding:  2.35vh  1.5vw;
-    font-size: 1.1vw;
+    padding:  2.41vh  1.5vw;
+    font-size: 1rem;
     color: #fff;
     background-color: #e50914;
     border: none;
@@ -86,7 +88,6 @@
     height: 4.566210045662101vh;
     width: 30%;
     border: none;
-    max-width: 43.92386530014641vw;
 }
 
 .loginScreen__input {

@@ -1,9 +1,9 @@
 .nav {
     position: fixed;
     top: 0;
-    padding:  3.0441400304414vh;
+    padding:  3vh;
     width: 100vw;
-    height: 4.566210045662101vh;
+    height: 4.6vh;
     z-index: 1;
     /* Animation */
     transition-timing-function: ease-in;
@@ -22,20 +22,20 @@
 
 .nav__logo {
     position: fixed;
-    top: 1.5220700152207vh;
+    top: 1.6vh;
     left: 0;
-    width: 5.856515373352855vw;
+    width: 5.9rem;
     object-fit: contain;
-    padding-left: 1.4641288433382138vw;
+    padding-left: 1.5vw;
     cursor: pointer;
 }
 
 .nav__avatar {
     cursor: pointer;
     position: fixed;
-    right: 1.4641288433382138vw;
-    width: 2.1961932650073206vw;
-    height: 4.566210045662101vh;
+    right: 1.5rem;
+    width: 2.2rem;
+    height: 2rem;
 }
 
 

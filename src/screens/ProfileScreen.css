@@ -1,3 +1,5 @@
+html { font-size:100%; }
+
 .profileScreen {
     height: 100vh;
     color: white;
@@ -6,7 +8,6 @@
 .profileScreen__body {
     display: flex;
     flex-direction: column;
-    width: 50vw;
     margin-left: auto;
     margin-right: auto;
     padding-top: 20vh;
@@ -24,24 +25,24 @@
 }
 
 .profileScreen__body > h1 {
-    font-size: 4.3vw;
+    font-size: 4.5vw;
     font-weight: 400;
-    border-bottom: 0.15220700152207vh solid #282c2d;
-    margin-bottom: 3vh;
+    border-bottom: 0.2vh solid #282c2d;
+    margin-bottom: 2rem;
 }
 
 .profileScreen__details > h2 {
     background-color: gray;
-    padding: 2vh;
-    font-size: 1vw;
+    padding: 1rem;
+    font-size: 1.3vw;
     padding-left: 2vw;
 }
 
 .profileScreen__signOut {
     padding: 1.5vh 1.5vw;
-    font-size: 1vw;
+    font-size: 1.3vw;
     margin-top: 3vh;
-    width: 40.9vw;
+    width: 50vw;
     color: #fff;
     background-color: #e50914;
     font-weight: 600;
@@ -54,8 +55,9 @@
 }
 
 .profileScreen__plans > h3 {
-    border-bottom: 0.15220700152207vh solid #282c2d;
+    border-bottom: 0.2vh solid #282c2d;
     padding-bottom: 2vh;
+    font-size: 1.6vw;
 }
 
 .profileScreen__plans {

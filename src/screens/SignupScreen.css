@@ -1,9 +1,12 @@
+html { font-size:100%; }
+
  .signupScreen {
-    max-width: 300px;
-    padding: 50px;
+    max-width: 18rem;
+    max-height: 20rem;
+    padding: 7vh 3.5vw;
     margin-left: auto;
     margin-right: auto;
-    margin-top: auto;
+    margin-top: 0rem;
     background: rgba(0, 0, 0, 0.85);
  }
 
@@ -14,33 +17,33 @@
 
 .signupScreen > form > input {
     outline-width: 0;
-    height: 40px;
-    margin-bottom: 14px;
-    border-radius: 5px;
+    height: 6vh;
+    margin-bottom: 2vh;
+    border-radius: 0.3rem;
     border: none;
-    padding: 5px 15px;
+    padding: 0.8vh 1.1vw;
 }
 
 .signupScreen > form > button {
-    padding: 16px 20px;
+    padding: 2.43531202435312vh 1.4641288433382138vw;
     font-size: 1rem;
     color: #fff;
-    border-radius: 5px;
+    border-radius: 0.3rem;
     background-color: #e50914;
     font-weight: 600;
     border: none;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 3vh;
 }
 
 .signupScreen > form > h1 {
     text-align: left;
-    margin-bottom: 25px;
+    margin-bottom: 3.8vh;
 }
 
 .signupScreen > form > h4 {
     text-align: left;
-    margin-top: 30px;
+    margin-top: 4.5vh;
 }
 
 .signupScreen__gray {

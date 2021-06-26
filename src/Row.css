@@ -1,8 +1,9 @@
 .row {
     color: white;
     margin-right: auto;
-    margin-left: 1.4641288433382138vw;
+    margin-left: 1.3vw;
     margin-top: 2vh;
+    max-width: 100vw;
 }
 
 .row__posters {
@@ -17,9 +18,9 @@
 }
 
 .row__poster {
-    max-height: 15.220700152207002vh;
+    max-height: 15.2vh;
     object-fit: contain;
-    margin-right: 0.7320644216691069vw;
+    margin-right: 0.8vw;
     width: 100vw;
     transition: transform 450ms;
 }
@@ -30,7 +31,7 @@
 }
 
 .row__posterLarge {
-    max-height: 38.051750380517504vh;
+    max-height: 38vh;
 }
 
 .row__posterLarge:hover {
